@@ -7,7 +7,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hive" />
         <module name="doris" />
+        <module name="spark" />
         <module name="hbase" />
       </profile>
     </annotationProcessing>
@@ -17,6 +19,8 @@
       <module name="bigdata" options="" />
       <module name="doris" options="-parameters" />
       <module name="hbase" options="-parameters" />
+      <module name="hive" options="-parameters" />
+      <module name="spark" options="-parameters" />
     </option>
   </component>
 </project>
